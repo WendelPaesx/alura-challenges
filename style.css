@@ -6,7 +6,7 @@
 }
 body{
     background-color: #051D3B;
-    max-width: 800px;
+    max-width: 100vw;
 }
 #navbar{
     display: flex;
@@ -42,6 +42,7 @@ body{
 summary{
     display: flex;
     margin: 10px;
+    margin-right: 40px;
 
 
 }
@@ -53,6 +54,11 @@ summary > p{
 .circle{
     border-radius: 50%;
     margin: 10px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+
 }
 
 #menu{
@@ -88,6 +94,50 @@ ul > li > img{
     margin: 10px;
     padding: 5px;
 }
+.projeto{
+    
+   color: aliceblue;
+   
+
+  
+    
+}
+.projeto > p{
+    margin: 10px;
+    margin-left: 5px;
+    width: 200px;
+    font-size: 0.7em;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+.texto{
+    width: 170px;
+    margin: 5px;
+    background-color: #274259;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    
+}
+#msg{
+    
+    height: 100px;
+}
+#linguagem{
+   
+   
+
+}
+
+  
+  
+
+
 
 
 

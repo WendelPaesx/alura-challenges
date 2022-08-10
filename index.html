@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav id="navbar">
+    <header id="navbar">
         <div class="navbar-container">
             <a href="#"><img class="logo"  src="img/logo1.png" alt="Logo Alura Dev"></a>
             <input class="pesquisa" type="search"  id="busca" placeholder="Busque algo">
@@ -18,15 +18,38 @@
             </summary>
 
         </div>
-    </nav>
-    <menu>
-        <div id="menu">
-            <p>MENU</p>
-            <ul>            
-                <li> <img src="img/icon-code.png" alt=""><a href=".">Editor de codigo</a></li>
-                <li> <img src="img/icon-community.png" alt=""><a href=".">Comunidade</a></li>
-            </ul>
-        </div>
-    </menu>
+    </header>
+
+    <main>
+        <nav id="left" class="container">
+                <article id="menu">
+                    <p>MENU</p>
+                    <ul>
+                        <li> <img src="img/icon-code.png" alt=""><a href=".">Editor de codigo</a></li>
+                        <li> <img src="img/icon-community.png" alt=""><a href=".">Comunidade</a></li>
+                    </ul>
+                </article>
+        </nav>
+        
+        <form id="right" >
+            <article class="projeto">
+                <p>SEU PROJETO</p>
+                <input type="text"  class="texto" placeholder="Nome do seu projeto">
+                <br>
+                <textarea  id="msg" class="texto" cols="30" rows="10" placeholder="Descrição do seu projeto"></textarea>
+            </article>
+            <article class="projeto">
+                <p>PERSONALIZAÇÃO</p>
+                <select name="linguagem" class="texto" id="linguagem">
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="TypeScript">TypeScript</option>
+                    <option value="Bootstrap">Bootstrap</option>
+                    <option value="React">React</option>
+                </select>
+
+            </article>
+        </form>
+    </main>
+
 </body>
 </html>
