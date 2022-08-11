@@ -4,6 +4,11 @@
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
+:root{
+    --color1:#5086F2;
+    --color2:#051D3B;
+    --color3:#274259;
+}
 body{
     background-color: #051D3B;
     max-width: 100vw;
@@ -123,16 +128,41 @@ ul > li > img{
     height: 40px;
     padding: 10px;
     
+    
 }
 #msg{
     
     height: 100px;
 }
-#linguagem{
+#color{
+    width: 170px;
+    margin: 5px;
+    background-color: var(--color2);
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    padding: 2px;
+    border: 1px solid white;
+    
    
+
    
 
 }
+.rbg{
+    border: 1px solid black;
+    border-radius: 5px;
+    
+    
+    
+}
+#btn{
+    margin-top: 15px;
+    background-color: #417df5;
+    color: black;
+}
+
+
 
   
   
